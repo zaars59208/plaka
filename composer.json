@@ -1,6 +1,10 @@
 {
     "name": "zaars59208/plaka",
     "description": "",
+    "type": "laravel-library",
+    "require": {
+        "composer/installers": "~1.0"
+    }
     "authors": [
         {
             "name": "Zaars59208",
@@ -19,6 +23,9 @@
             ],
             "aliases": {
                 
+            },
+	    "installer-paths": {
+         	"modules/{$name}": ["vendor/package"]
             }
         }
     }
