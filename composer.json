@@ -1,0 +1,25 @@
+{
+    "name": "akaunting/plaka",
+    "description": "",
+    "authors": [
+        {
+            "name": "Akaunting",
+            "email": "info@akaunting.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Modules\\Plaka\\": ""
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Plaka\\Providers\\Main"
+            ],
+            "aliases": {
+                
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "alias": "plaka",
+    "icon": "fas fa-credit-card",
+    "version": "2.0.0",
+    "category": "integration",
+    "active": 1,
+    "providers": [
+        "Modules\\Plaka\\Providers\\Event",
+        "Modules\\Plaka\\Providers\\Main"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "reports": [],
+    "widgets": [],
+    "settings": []
+}
